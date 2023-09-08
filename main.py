@@ -5,7 +5,9 @@ import sounddevice as sd
 import wavio
 from gtts import gTTS
 import io
+import pyaudio
 from decouple import config
+
 openai.api_key = config('openai.api_key')
 
 
